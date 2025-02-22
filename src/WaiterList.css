@@ -1,0 +1,29 @@
+/* WaiterList.css */
+.waiter-list-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .waiter-list h2 {
+    text-align: center;
+  }
+  
+  .waiter-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .waiter-table th, .waiter-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .waiter-table th {
+    background-color: #4CAF50;
+    color: white;
+  }

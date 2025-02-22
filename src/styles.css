@@ -1,0 +1,58 @@
+/* Common Form Styling for WaiterLogin & WaiterPage */
+.waiter-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc; /* Light Background */
+}
+
+.waiter-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.waiter-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.waiter-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.waiter-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.waiter-form button:hover {
+    background-color: #0056b3;
+}
+
+.waiter-form a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.waiter-form a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,95 @@
+/* App Container */
+.dashboard-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+  position: relative;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #333;
+  color: white;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Sidebar Links */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.menu a:hover {
+  color: #ddd;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  font-size: 24px;
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 20px;
+  padding: 20px;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4e90fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

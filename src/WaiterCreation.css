@@ -1,0 +1,20 @@
+/* WaiterCreation.css */
+.waiters-list {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.waiters-list h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.waiters-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.waiters-list li {
+  padding: 5px 0;
+  font-size: 18px;
+}
